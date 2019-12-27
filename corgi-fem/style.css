@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.page-name {
+  font-family: "Snell Roundhand";
+  font-weight: normal;
+  font-size: 60px;
+  text-align: center;
+}
+
+.article-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+
+.article-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.article-text {
+  display: block;
+}
+
+.post {
+  border: 1px solid black;
+  padding: 0 10px;
+}
+
+.post-small {
+  width: 25%;
+}
+
+.post-big {
+  width: 50%;
+}
+
+.item-link {
+  color: #666;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Futura";
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.item-link:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.other-item {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+}
+
+/* colors
+*
+*/
+
+.color0 {
+  background-color: #ba9bd3;
+}
+
+.color1 {
+  background-color: #52c8ff;
+}
+
+.color2 {
+  background-color: #78c155;
+}
+
+.color3 {
+  background-color: #ffdf00;
+}
+
+.color4 {
+  background-color: #fc77be;
+}
